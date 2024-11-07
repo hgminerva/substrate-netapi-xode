@@ -1,0 +1,6 @@
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Integration\obj\Debug\netstandard2.0\Substrate.Integration.csproj.AssemblyReference.cache
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Integration\obj\Debug\netstandard2.0\Substrate.Integration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Integration\obj\Debug\netstandard2.0\Substrate.Integration.AssemblyInfoInputs.cache
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Integration\obj\Debug\netstandard2.0\Substrate.Integration.AssemblyInfo.cs
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Integration\obj\Debug\netstandard2.0\Substrate.Integration.csproj.CoreCompileInputs.cache
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Integration\obj\Debug\netstandard2.0\Substrate.Integration.sourcelink.json

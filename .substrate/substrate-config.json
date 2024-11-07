@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "net_api": "Substrate.Xode.NET.NetApiExt",
+    "net_integration": "Substrate.Integration",
+    "rest_service": "Substrate.Xode.NET.RestService",
+    "rest_client": "Substrate.Xode.NET.RestClient"
+  },
+   "metadata": {
+      "websocket": "wss://rpcnodea01.xode.net/n7yoxCmcIrCF6VziCcDmYTwL8R03a/ws"
+   },
+  "rest_client_settings": {
+    "service_assembly": "Substrate.Xode.NET.RestService.dll"
+  }
+}

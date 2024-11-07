@@ -1,0 +1,12 @@
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.NetApiExt\bin\Debug\netstandard2.1\Substrate.Xode.NET.NetApiExt.xml
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.NetApiExt\bin\Debug\netstandard2.1\Substrate.Xode.NET.NetApiExt.deps.json
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.NetApiExt\bin\Debug\netstandard2.1\Substrate.Xode.NET.NetApiExt.dll
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.NetApiExt\bin\Debug\netstandard2.1\Substrate.Xode.NET.NetApiExt.pdb
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.NetApiExt\obj\Debug\netstandard2.1\Substrate.Xode.NET.NetApiExt.csproj.AssemblyReference.cache
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.NetApiExt\obj\Debug\netstandard2.1\Substrate.Xode.NET.NetApiExt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.NetApiExt\obj\Debug\netstandard2.1\Substrate.Xode.NET.NetApiExt.AssemblyInfoInputs.cache
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.NetApiExt\obj\Debug\netstandard2.1\Substrate.Xode.NET.NetApiExt.AssemblyInfo.cs
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.NetApiExt\obj\Debug\netstandard2.1\Substrate.Xode.NET.NetApiExt.csproj.CoreCompileInputs.cache
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.NetApiExt\obj\Debug\netstandard2.1\Substrate.Xode.NET.NetApiExt.sourcelink.json
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.NetApiExt\obj\Debug\netstandard2.1\Substrate.Xode.NET.NetApiExt.dll
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.NetApiExt\obj\Debug\netstandard2.1\Substrate.Xode.NET.NetApiExt.pdb

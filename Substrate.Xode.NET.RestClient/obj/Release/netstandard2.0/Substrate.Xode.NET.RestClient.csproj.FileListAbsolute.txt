@@ -1,0 +1,16 @@
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.RestClient\bin\Release\netstandard2.0\Substrate.Xode.NET.RestClient.xml
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.RestClient\bin\Release\netstandard2.0\Substrate.Xode.NET.RestClient.deps.json
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.RestClient\bin\Release\netstandard2.0\Substrate.Xode.NET.RestClient.dll
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.RestClient\bin\Release\netstandard2.0\Substrate.Xode.NET.RestClient.pdb
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.RestClient\bin\Release\netstandard2.0\Substrate.Xode.NET.NetApiExt.dll
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.RestClient\bin\Release\netstandard2.0\Substrate.Xode.NET.NetApiExt.pdb
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.RestClient\bin\Release\netstandard2.0\Substrate.Xode.NET.NetApiExt.xml
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.RestClient\obj\Release\netstandard2.0\Substrate.Xode.NET.RestClient.csproj.AssemblyReference.cache
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.RestClient\obj\Release\netstandard2.0\Substrate.Xode.NET.RestClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.RestClient\obj\Release\netstandard2.0\Substrate.Xode.NET.RestClient.AssemblyInfoInputs.cache
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.RestClient\obj\Release\netstandard2.0\Substrate.Xode.NET.RestClient.AssemblyInfo.cs
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.RestClient\obj\Release\netstandard2.0\Substrate.Xode.NET.RestClient.csproj.CoreCompileInputs.cache
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.RestClient\obj\Release\netstandard2.0\Substrate.Xode.NET.RestClient.sourcelink.json
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.RestClient\obj\Release\netstandard2.0\Substrat.95EC809E.Up2Date
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.RestClient\obj\Release\netstandard2.0\Substrate.Xode.NET.RestClient.dll
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Xode.NET.RestClient\obj\Release\netstandard2.0\Substrate.Xode.NET.RestClient.pdb

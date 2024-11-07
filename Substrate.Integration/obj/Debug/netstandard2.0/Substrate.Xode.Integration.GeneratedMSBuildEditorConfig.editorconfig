@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Substrate.Xode.Integration
+build_property.ProjectDir = /Users/hgminerva/Projects/xode/substrate-xode-net/Substrate.Integration/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,0 +1,16 @@
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Integration\obj\Debug\netstandard2.0\Substrate.Xode.Integration.csproj.AssemblyReference.cache
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Integration\obj\Debug\netstandard2.0\Substrate.Xode.Integration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Integration\obj\Debug\netstandard2.0\Substrate.Xode.Integration.AssemblyInfoInputs.cache
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Integration\obj\Debug\netstandard2.0\Substrate.Xode.Integration.AssemblyInfo.cs
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Integration\obj\Debug\netstandard2.0\Substrate.Xode.Integration.csproj.CoreCompileInputs.cache
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.NET\Substrate.Integration\obj\Debug\netstandard2.0\Substrate.Xode.Integration.sourcelink.json
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.Net\Substrate.Integration\bin\Debug\netstandard2.0\Substrate.Xode.Integration.xml
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.Net\Substrate.Integration\bin\Debug\netstandard2.0\Substrate.Xode.Integration.deps.json
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.Net\Substrate.Integration\bin\Debug\netstandard2.0\Substrate.Xode.Integration.dll
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.Net\Substrate.Integration\bin\Debug\netstandard2.0\Substrate.Xode.Integration.pdb
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.Net\Substrate.Integration\bin\Debug\netstandard2.0\Substrate.Xode.NET.NetApiExt.dll
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.Net\Substrate.Integration\bin\Debug\netstandard2.0\Substrate.Xode.NET.NetApiExt.pdb
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.Net\Substrate.Integration\bin\Debug\netstandard2.0\Substrate.Xode.NET.NetApiExt.xml
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.Net\Substrate.Integration\obj\Debug\netstandard2.0\Substrat.3191C161.Up2Date
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.Net\Substrate.Integration\obj\Debug\netstandard2.0\Substrate.Xode.Integration.dll
+C:\Users\Ernest\Documents\GitHub\4Nexgen\Substrate.Chains.NET\Substrate.Xode.Net\Substrate.Integration\obj\Debug\netstandard2.0\Substrate.Xode.Integration.pdb

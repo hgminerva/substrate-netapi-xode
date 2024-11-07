@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Substrate.Xode.NET.NetApiExt
+build_property.ProjectDir = /Users/hgminerva/Projects/xode/substrate-xode-net/Substrate.Xode.NET.NetApiExt/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

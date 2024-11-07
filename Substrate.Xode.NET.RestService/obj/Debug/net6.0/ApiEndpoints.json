@@ -1,0 +1,2435 @@
+[
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.AssetsController",
+    "Method": "GetAccount",
+    "RelativePath": "assets/account",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.pallet_assets.types.AssetAccount",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.AssetsController",
+    "Method": "GetApprovals",
+    "RelativePath": "assets/approvals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.pallet_assets.types.Approval",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.AssetsController",
+    "Method": "GetAsset",
+    "RelativePath": "assets/asset",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.pallet_assets.types.AssetDetails",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.AssetsController",
+    "Method": "GetMetadata",
+    "RelativePath": "assets/metadata",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.pallet_assets.types.AssetMetadata",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.AuraController",
+    "Method": "GetAuthorities",
+    "RelativePath": "aura/authorities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT8",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.AuraController",
+    "Method": "GetCurrentSlot",
+    "RelativePath": "aura/currentslot",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.sp_consensus_slots.Slot",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.AuraExtController",
+    "Method": "GetAuthorities",
+    "RelativePath": "auraext/authorities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT8",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.AuthorshipController",
+    "Method": "GetAuthor",
+    "RelativePath": "authorship/author",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.BalancesController",
+    "Method": "GetAccount",
+    "RelativePath": "balances/account",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.pallet_balances.types.AccountData",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.BalancesController",
+    "Method": "GetFreezes",
+    "RelativePath": "balances/freezes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT5",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.BalancesController",
+    "Method": "GetHolds",
+    "RelativePath": "balances/holds",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT5",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.BalancesController",
+    "Method": "GetInactiveIssuance",
+    "RelativePath": "balances/inactiveissuance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U128",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.BalancesController",
+    "Method": "GetLocks",
+    "RelativePath": "balances/locks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.bounded_collections.weak_bounded_vec.WeakBoundedVecT2",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.BalancesController",
+    "Method": "GetReserves",
+    "RelativePath": "balances/reserves",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT4",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.BalancesController",
+    "Method": "GetTotalIssuance",
+    "RelativePath": "balances/totalissuance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U128",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.CollatorSelectionController",
+    "Method": "GetCandidacyBond",
+    "RelativePath": "collatorselection/candidacybond",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U128",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.CollatorSelectionController",
+    "Method": "GetCandidates",
+    "RelativePath": "collatorselection/candidates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT7",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.CollatorSelectionController",
+    "Method": "GetDesiredCandidates",
+    "RelativePath": "collatorselection/desiredcandidates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U32",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.CollatorSelectionController",
+    "Method": "GetInvulnerables",
+    "RelativePath": "collatorselection/invulnerables",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT6",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.CollatorSelectionController",
+    "Method": "GetLastAuthoredBlock",
+    "RelativePath": "collatorselection/lastauthoredblock",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U32",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ContractsController",
+    "Method": "GetCodeStorage",
+    "RelativePath": "contracts/codestorage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.pallet_contracts.wasm.PrefabWasmModule",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ContractsController",
+    "Method": "GetContractInfoOf",
+    "RelativePath": "contracts/contractinfoof",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.pallet_contracts.storage.ContractInfo",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ContractsController",
+    "Method": "GetDeletionQueue",
+    "RelativePath": "contracts/deletionqueue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT14",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ContractsController",
+    "Method": "GetDeletionQueueCounter",
+    "RelativePath": "contracts/deletionqueuecounter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.pallet_contracts.storage.DeletionQueueManager",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ContractsController",
+    "Method": "GetNonce",
+    "RelativePath": "contracts/nonce",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U64",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ContractsController",
+    "Method": "GetOwnerInfoOf",
+    "RelativePath": "contracts/ownerinfoof",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.pallet_contracts.wasm.OwnerInfo",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ContractsController",
+    "Method": "GetPristineCode",
+    "RelativePath": "contracts/pristinecode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT13",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.DmpQueueController",
+    "Method": "GetConfiguration",
+    "RelativePath": "dmpqueue/configuration",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.cumulus_pallet_dmp_queue.ConfigData",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.DmpQueueController",
+    "Method": "GetCounterForOverweight",
+    "RelativePath": "dmpqueue/counterforoverweight",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U32",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.DmpQueueController",
+    "Method": "GetOverweight",
+    "RelativePath": "dmpqueue/overweight",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseTuple\u00602[[Substrate.NetApi.Model.Types.Primitive.U32, Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null],[Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.NetApi.Model.Types.Primitive.U8, Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]], Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.DmpQueueController",
+    "Method": "GetPageIndex",
+    "RelativePath": "dmpqueue/pageindex",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.cumulus_pallet_dmp_queue.PageIndexData",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.DmpQueueController",
+    "Method": "GetPages",
+    "RelativePath": "dmpqueue/pages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.NetApi.Model.Types.Base.BaseTuple\u00602[[Substrate.NetApi.Model.Types.Primitive.U32, Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null],[Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.NetApi.Model.Types.Primitive.U8, Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]], Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]], Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Controller.MockupController",
+    "Method": "HandleMockupData",
+    "RelativePath": "mockup/data",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Substrate.ServiceLayer.Model.MockupRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainInfoController",
+    "Method": "GetParachainId",
+    "RelativePath": "parachaininfo/parachainid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.polkadot_parachain.primitives.Id",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainSystemController",
+    "Method": "GetAnnouncedHrmpMessagesPerCandidate",
+    "RelativePath": "parachainsystem/announcedhrmpmessagespercandidate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U32",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainSystemController",
+    "Method": "GetAuthorizedUpgrade",
+    "RelativePath": "parachainsystem/authorizedupgrade",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.cumulus_pallet_parachain_system.CodeUpgradeAuthorization",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainSystemController",
+    "Method": "GetCustomValidationHeadData",
+    "RelativePath": "parachainsystem/customvalidationheaddata",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.NetApi.Model.Types.Primitive.U8, Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainSystemController",
+    "Method": "GetDidSetValidationCode",
+    "RelativePath": "parachainsystem/didsetvalidationcode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.Bool",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainSystemController",
+    "Method": "GetHostConfiguration",
+    "RelativePath": "parachainsystem/hostconfiguration",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.polkadot_primitives.v4.AbridgedHostConfiguration",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainSystemController",
+    "Method": "GetHrmpOutboundMessages",
+    "RelativePath": "parachainsystem/hrmpoutboundmessages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.Xode.NET.NetApiExt.Generated.Model.polkadot_core_primitives.OutboundHrmpMessage, Substrate.Xode.NET.NetApiExt, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainSystemController",
+    "Method": "GetHrmpWatermark",
+    "RelativePath": "parachainsystem/hrmpwatermark",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U32",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainSystemController",
+    "Method": "GetLastDmqMqcHead",
+    "RelativePath": "parachainsystem/lastdmqmqchead",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.cumulus_primitives_parachain_inherent.MessageQueueChain",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainSystemController",
+    "Method": "GetLastHrmpMqcHeads",
+    "RelativePath": "parachainsystem/lasthrmpmqcheads",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Types.Base.BTreeMapT1",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainSystemController",
+    "Method": "GetLastRelayChainBlockNumber",
+    "RelativePath": "parachainsystem/lastrelaychainblocknumber",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U32",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainSystemController",
+    "Method": "GetNewValidationCode",
+    "RelativePath": "parachainsystem/newvalidationcode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.NetApi.Model.Types.Primitive.U8, Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainSystemController",
+    "Method": "GetPendingUpwardMessages",
+    "RelativePath": "parachainsystem/pendingupwardmessages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.NetApi.Model.Types.Primitive.U8, Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]], Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainSystemController",
+    "Method": "GetPendingValidationCode",
+    "RelativePath": "parachainsystem/pendingvalidationcode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.NetApi.Model.Types.Primitive.U8, Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainSystemController",
+    "Method": "GetProcessedDownwardMessages",
+    "RelativePath": "parachainsystem/processeddownwardmessages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U32",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainSystemController",
+    "Method": "GetRelayStateProof",
+    "RelativePath": "parachainsystem/relaystateproof",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.sp_trie.storage_proof.StorageProof",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainSystemController",
+    "Method": "GetRelevantMessagingState",
+    "RelativePath": "parachainsystem/relevantmessagingstate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.cumulus_pallet_parachain_system.relay_state_snapshot.MessagingStateSnapshot",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainSystemController",
+    "Method": "GetReservedDmpWeightOverride",
+    "RelativePath": "parachainsystem/reserveddmpweightoverride",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.sp_weights.weight_v2.Weight",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainSystemController",
+    "Method": "GetReservedXcmpWeightOverride",
+    "RelativePath": "parachainsystem/reservedxcmpweightoverride",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.sp_weights.weight_v2.Weight",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainSystemController",
+    "Method": "GetUpgradeRestrictionSignal",
+    "RelativePath": "parachainsystem/upgraderestrictionsignal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseOpt\u00601[[Substrate.Xode.NET.NetApiExt.Generated.Model.polkadot_primitives.v4.EnumUpgradeRestriction, Substrate.Xode.NET.NetApiExt, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainSystemController",
+    "Method": "GetUpwardMessages",
+    "RelativePath": "parachainsystem/upwardmessages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.NetApi.Model.Types.Primitive.U8, Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]], Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.ParachainSystemController",
+    "Method": "GetValidationData",
+    "RelativePath": "parachainsystem/validationdata",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.polkadot_primitives.v4.PersistedValidationData",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.PolkadotXcmController",
+    "Method": "GetAssetTraps",
+    "RelativePath": "polkadotxcm/assettraps",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U32",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.PolkadotXcmController",
+    "Method": "GetCurrentMigration",
+    "RelativePath": "polkadotxcm/currentmigration",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.pallet_xcm.pallet.EnumVersionMigrationStage",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.PolkadotXcmController",
+    "Method": "GetLockedFungibles",
+    "RelativePath": "polkadotxcm/lockedfungibles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT11",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.PolkadotXcmController",
+    "Method": "GetQueries",
+    "RelativePath": "polkadotxcm/queries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.pallet_xcm.pallet.EnumQueryStatus",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.PolkadotXcmController",
+    "Method": "GetQueryCounter",
+    "RelativePath": "polkadotxcm/querycounter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U64",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.PolkadotXcmController",
+    "Method": "GetRemoteLockedFungibles",
+    "RelativePath": "polkadotxcm/remotelockedfungibles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.pallet_xcm.pallet.RemoteLockedFungibleRecord",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.PolkadotXcmController",
+    "Method": "GetSafeXcmVersion",
+    "RelativePath": "polkadotxcm/safexcmversion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U32",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.PolkadotXcmController",
+    "Method": "GetSupportedVersion",
+    "RelativePath": "polkadotxcm/supportedversion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U32",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.PolkadotXcmController",
+    "Method": "GetVersionDiscoveryQueue",
+    "RelativePath": "polkadotxcm/versiondiscoveryqueue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.bounded_collections.bounded_vec.BoundedVecT9",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.PolkadotXcmController",
+    "Method": "GetVersionNotifiers",
+    "RelativePath": "polkadotxcm/versionnotifiers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U64",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.PolkadotXcmController",
+    "Method": "GetVersionNotifyTargets",
+    "RelativePath": "polkadotxcm/versionnotifytargets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseTuple\u00603[[Substrate.NetApi.Model.Types.Primitive.U64, Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null],[Substrate.Xode.NET.NetApiExt.Generated.Model.sp_weights.weight_v2.Weight, Substrate.Xode.NET.NetApiExt, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Substrate.NetApi.Model.Types.Primitive.U32, Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.PolkadotXcmController",
+    "Method": "GetXcmExecutionSuspended",
+    "RelativePath": "polkadotxcm/xcmexecutionsuspended",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.Bool",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SessionController",
+    "Method": "GetCurrentIndex",
+    "RelativePath": "session/currentindex",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U32",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SessionController",
+    "Method": "GetDisabledValidators",
+    "RelativePath": "session/disabledvalidators",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.NetApi.Model.Types.Primitive.U32, Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SessionController",
+    "Method": "GetKeyOwner",
+    "RelativePath": "session/keyowner",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SessionController",
+    "Method": "GetNextKeys",
+    "RelativePath": "session/nextkeys",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.humidefi_runtime.SessionKeys",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SessionController",
+    "Method": "GetQueuedChanged",
+    "RelativePath": "session/queuedchanged",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.Bool",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SessionController",
+    "Method": "GetQueuedKeys",
+    "RelativePath": "session/queuedkeys",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.NetApi.Model.Types.Base.BaseTuple\u00602[[Substrate.Xode.NET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32, Substrate.Xode.NET.NetApiExt, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Substrate.Xode.NET.NetApiExt.Generated.Model.humidefi_runtime.SessionKeys, Substrate.Xode.NET.NetApiExt, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SessionController",
+    "Method": "GetValidators",
+    "RelativePath": "session/validators",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.Xode.NET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32, Substrate.Xode.NET.NetApiExt, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SudoController",
+    "Method": "GetKey",
+    "RelativePath": "sudo/key",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.sp_core.crypto.AccountId32",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SystemController",
+    "Method": "GetAccount",
+    "RelativePath": "system/account",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.frame_system.AccountInfo",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SystemController",
+    "Method": "GetAllExtrinsicsLen",
+    "RelativePath": "system/allextrinsicslen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U32",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SystemController",
+    "Method": "GetBlockHash",
+    "RelativePath": "system/blockhash",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.primitive_types.H256",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SystemController",
+    "Method": "GetBlockWeight",
+    "RelativePath": "system/blockweight",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.frame_support.dispatch.PerDispatchClassT1",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SystemController",
+    "Method": "GetDigest",
+    "RelativePath": "system/digest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.sp_runtime.generic.digest.Digest",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SystemController",
+    "Method": "GetEventCount",
+    "RelativePath": "system/eventcount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U32",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SystemController",
+    "Method": "GetEvents",
+    "RelativePath": "system/events",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.Xode.NET.NetApiExt.Generated.Model.frame_system.EventRecord, Substrate.Xode.NET.NetApiExt, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SystemController",
+    "Method": "GetEventTopics",
+    "RelativePath": "system/eventtopics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.NetApi.Model.Types.Base.BaseTuple\u00602[[Substrate.NetApi.Model.Types.Primitive.U32, Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null],[Substrate.NetApi.Model.Types.Primitive.U32, Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]], Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SystemController",
+    "Method": "GetExecutionPhase",
+    "RelativePath": "system/executionphase",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.frame_system.EnumPhase",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SystemController",
+    "Method": "GetExtrinsicCount",
+    "RelativePath": "system/extrinsiccount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U32",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SystemController",
+    "Method": "GetExtrinsicData",
+    "RelativePath": "system/extrinsicdata",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.NetApi.Model.Types.Primitive.U8, Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SystemController",
+    "Method": "GetLastRuntimeUpgrade",
+    "RelativePath": "system/lastruntimeupgrade",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.frame_system.LastRuntimeUpgradeInfo",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SystemController",
+    "Method": "GetNumber",
+    "RelativePath": "system/number",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U32",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SystemController",
+    "Method": "GetParentHash",
+    "RelativePath": "system/parenthash",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.primitive_types.H256",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SystemController",
+    "Method": "GetUpgradedToTripleRefCount",
+    "RelativePath": "system/upgradedtotriplerefcount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.Bool",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.SystemController",
+    "Method": "GetUpgradedToU32RefCount",
+    "RelativePath": "system/upgradedtou32refcount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.Bool",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.TemplatePalletController",
+    "Method": "GetSomething",
+    "RelativePath": "templatepallet/something",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U32",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.TimestampController",
+    "Method": "GetDidUpdate",
+    "RelativePath": "timestamp/didupdate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.Bool",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.TimestampController",
+    "Method": "GetNow",
+    "RelativePath": "timestamp/now",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U64",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.TransactionPaymentController",
+    "Method": "GetNextFeeMultiplier",
+    "RelativePath": "transactionpayment/nextfeemultiplier",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.sp_arithmetic.fixed_point.FixedU128",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.TransactionPaymentController",
+    "Method": "GetStorageVersion",
+    "RelativePath": "transactionpayment/storageversion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.pallet_transaction_payment.EnumReleases",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.XcmpQueueController",
+    "Method": "GetCounterForOverweight",
+    "RelativePath": "xcmpqueue/counterforoverweight",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U32",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.XcmpQueueController",
+    "Method": "GetInboundXcmpMessages",
+    "RelativePath": "xcmpqueue/inboundxcmpmessages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.NetApi.Model.Types.Primitive.U8, Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.XcmpQueueController",
+    "Method": "GetInboundXcmpStatus",
+    "RelativePath": "xcmpqueue/inboundxcmpstatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.Xode.NET.NetApiExt.Generated.Model.cumulus_pallet_xcmp_queue.InboundChannelDetails, Substrate.Xode.NET.NetApiExt, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.XcmpQueueController",
+    "Method": "GetOutboundXcmpMessages",
+    "RelativePath": "xcmpqueue/outboundxcmpmessages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.NetApi.Model.Types.Primitive.U8, Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.XcmpQueueController",
+    "Method": "GetOutboundXcmpStatus",
+    "RelativePath": "xcmpqueue/outboundxcmpstatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.Xode.NET.NetApiExt.Generated.Model.cumulus_pallet_xcmp_queue.OutboundChannelDetails, Substrate.Xode.NET.NetApiExt, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.XcmpQueueController",
+    "Method": "GetOverweight",
+    "RelativePath": "xcmpqueue/overweight",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseTuple\u00603[[Substrate.Xode.NET.NetApiExt.Generated.Model.polkadot_parachain.primitives.Id, Substrate.Xode.NET.NetApiExt, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Substrate.NetApi.Model.Types.Primitive.U32, Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null],[Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.NetApi.Model.Types.Primitive.U8, Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]], Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.XcmpQueueController",
+    "Method": "GetOverweightCount",
+    "RelativePath": "xcmpqueue/overweightcount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.U64",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.XcmpQueueController",
+    "Method": "GetQueueConfig",
+    "RelativePath": "xcmpqueue/queueconfig",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.Xode.NET.NetApiExt.Generated.Model.cumulus_pallet_xcmp_queue.QueueConfigData",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.XcmpQueueController",
+    "Method": "GetQueueSuspended",
+    "RelativePath": "xcmpqueue/queuesuspended",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Primitive.Bool",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Substrate.Xode.NET.RestService.Generated.Controller.XcmpQueueController",
+    "Method": "GetSignalMessages",
+    "RelativePath": "xcmpqueue/signalmessages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Substrate.NetApi.Model.Types.Base.BaseVec\u00601[[Substrate.NetApi.Model.Types.Primitive.U8, Substrate.NetApi, Version=0.9.24.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/substrate",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
